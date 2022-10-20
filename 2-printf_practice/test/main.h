@@ -7,7 +7,7 @@
 #include <limits.h>
 #include <stdlib.h>
 
-#define OUTPUT_BUF_SIZE 102
+#define OUTPUT_BUF_SIZE 1024
 #define BUF_FLUSH -1
 
 #define FIELD_BUF_SIZE 50
@@ -41,7 +41,6 @@
 typedef struct parameters
 {
 	unsigned int unsign			: 1;
-
 	unsigned int plus_flag		: 1;
 	unsigned int space_flag		: 1;
 	unsigned int hashtag_flag	: 1;
